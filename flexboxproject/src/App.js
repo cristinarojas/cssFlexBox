@@ -15,6 +15,20 @@ function App() {
           </ul>
         </nav>
       </header>
+
+      <section className="container">
+        <article className="left-article">
+          Left Article
+        </article>
+
+        <article className="right-article">
+          Right Article
+        </article>
+      </section>
+
+      <footer>
+        I'm the footer
+      </footer>
     </div>
   );
 }
