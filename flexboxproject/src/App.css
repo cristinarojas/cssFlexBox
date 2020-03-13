@@ -1,0 +1,23 @@
+.App-header nav {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  /* FlexBox */
+  display: flex;  /* mode FlexBox */
+  align-items: center; /* Center elements vertically */
+  justify-content: space-between; /* Separate elements one left, one right */
+}
+
+.App-header nav ul {
+  display: flex;
+}
+
+.App-header nav ul li {
+  margin: 15px;
+}
+
+.App-header nav span {
+  margin: 15px;
+}
