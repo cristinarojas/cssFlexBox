@@ -24,6 +24,18 @@ function App() {
         <article className="right-article">
           Right Article
         </article>
+
+        <aside>
+          I'm the aside
+        </aside>
+      </section>
+
+      <section className="images">
+        <figure>
+          <img
+            src="http://ohtellmemore.com/wp-content/uploads/2020/03/tierra.jpeg"
+            alt="HTML5 and FlexBox project" />
+        </figure>
       </section>
 
       <footer>

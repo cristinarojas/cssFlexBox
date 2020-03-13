@@ -48,6 +48,17 @@
   width: 300px;
 }
 
+.container aside {
+  background-color: orange;
+  height: 400px;
+  width: 150px;
+}
+
+.images figure img {
+  width: 500px;
+  height: 320px;
+}
+
 footer {
   background-color: black;
   color: white;
