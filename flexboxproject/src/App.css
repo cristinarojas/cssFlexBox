@@ -1,3 +1,7 @@
+.App {
+  color: white;
+}
+
 .App-header nav {
   height: 80px;
   width: 100%;
@@ -6,7 +10,7 @@
 
   /* FlexBox */
   display: flex;  /* mode FlexBox */
-  align-items: center; /* Center elements vertically */
+  align-items: center; /* Center elements horizontally */
   justify-content: space-between; /* Separate elements one left, one right */
 }
 
@@ -20,4 +24,38 @@
 
 .App-header nav span {
   margin: 15px;
+}
+
+.container {
+  height: 100vh;
+
+  /* FlexBox */
+  display: flex;  /* mode FlexBox */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center the elements vertically */
+}
+
+.container .left-article {
+  background-color: pink;
+  height: 200px;
+  width: 300px;
+}
+
+.container .right-article {
+  text-align: right;
+  background-color: purple;
+  height: 200px;
+  width: 300px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  box-sizing: border-box; /* We can include the padding and border in an element's total width and height.*/
+  padding: 20px;
+
+  /* FlexBox */
+  display: flex;  /* mode FlexBox */
+  align-items: center; /* Center elements horizontally */
 }
